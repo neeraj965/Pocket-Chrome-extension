@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+
+
+/* todolist designe */
+
+#input-field {
+  display: flex;
+  justify-content: center;
+
+  gap: 5px;
+  /* margin-top: 5%; */
+}
+
+::-webkit-input-placeholder {
+  padding: 0 5px;
+}
+#input-text {
+  width: 17rem;
+}
+#delete-icon {
+  color: red;
+  font-size: 1.2rem;
+}
+#content-data {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  gap: 10px;
+  font-size: 1.2rem;
+  margin-left: -14rem;
+
+  background-color: rgb(19, 184, 250);
+
+  color: black;
+}
+#hello {
+  position: absolute;
+  margin: -11.5rem 1rem;
+
+  font-size: 2rem;
+  font-family: "Outfit", sans-serif;
+
+  animation: change infinite 10s;
+}
+
+@keyframes change {
+  60% {
+    color: white;
+  }
+  80% {
+    color: black;
+  }
+}
+

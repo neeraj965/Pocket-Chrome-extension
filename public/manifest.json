@@ -1,0 +1,15 @@
+
+{
+  
+  "name": "Pocket Extension",
+  "author": "Abhishek Singh Rana",
+  "version": "1.0.1",
+  "description": "Use this pocket extension to save any content and text for further use",
+  "manifest_version": 3,
+ 
+  "action": {
+    
+    "default_popup": "index.html"
+  
+  }
+}
